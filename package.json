@@ -1,0 +1,37 @@
+{
+	"name": "@professional-js/types-utility",
+	"version": "0.1.0",
+	"description": "utility types for all TypeScript projects",
+	"main": "src/index.d.ts",
+	"exports": {
+		"./AllOrNothing": "./src/AllOrNothing.d.ts",
+		"./EitherOr": "./src/EitherOr.d.ts",
+		".": "./src/index.d.ts"
+	},
+	"files": [
+		"src"
+	],
+	"scripts": {
+		"test": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/professional-js/types-utility.git"
+	},
+	"keywords": [
+		"typescript"
+	],
+	"author": {
+		"name": "Christian Vetter",
+		"email": "hallo@cv-o.de",
+		"url": "https://github.com/c-vetter"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/professional-js/types-utility/issues"
+	},
+	"homepage": "https://github.com/professional-js/types-utility#readme",
+	"devDependencies": {
+		"typescript": "^5.4.5"
+	}
+}
